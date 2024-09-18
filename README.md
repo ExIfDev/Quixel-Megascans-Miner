@@ -1,5 +1,7 @@
 # Quixel-Megascans-Miner
 
+Description: Automatically adds 6500 assets to your account
+
 Step 1: Get your account token
 
 1) go to: https://quixel.com/megascans/home/
