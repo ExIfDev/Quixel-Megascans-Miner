@@ -1,6 +1,7 @@
 # Quixel-Megascans-Miner
 
 Description: Automatically adds 6500 assets to your account
+
 Demo video: https://www.youtube.com/watch?v=umhsmPZbEME (the one shown on the video differs from this current one because it used to build the index dynamically but it was easier to build up an index once)
 
 Step 1: Get your account token
