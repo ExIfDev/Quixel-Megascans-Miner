@@ -7,8 +7,7 @@ Step 1: Get your account token
 3) download a random asset (it's not needed for it to fully download)
 4) in the "Name" tab click on "extended"
 5) scroll down till you find this seen in the image below copy and paste it into the variable token of the script
-
-![tut](https://github.com/user-attachments/assets/d607a2a4-3e25-4227-8baf-6b9c02699b03)
+   
 ![image](https://github.com/user-attachments/assets/770c4782-5408-43a0-bb65-2bf9d9229622)
 
 
