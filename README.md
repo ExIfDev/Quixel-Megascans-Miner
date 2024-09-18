@@ -10,7 +10,7 @@ Step 1: Get your account token
 
 ![tut](https://github.com/user-attachments/assets/d607a2a4-3e25-4227-8baf-6b9c02699b03)
 
-Step 2: Install prerequisites 
+Step 2: Install dependencies 
 
 1) run "install dependencies.bat" from the folder
 
