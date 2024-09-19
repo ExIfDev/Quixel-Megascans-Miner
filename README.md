@@ -27,3 +27,8 @@ Step 2: Install dependencies
 Step 3: Run the script
 
 run "quixelminer.py" and wait till all of the 10k assets from the quixel.index get added to your account!
+
+
+COMMON ISSUES:
+
+
