@@ -71,6 +71,10 @@ def acquire_asset_with_timeout(asset_id, index, timeout_seconds):
             print(f"User already owns asset {asset_id}")
             index[asset_id] = True  
             return True
+        elif "TOKEN" in response.text and "EXPIRED" in response.text:
+            ctypes.windll.user32.MessageBoxW(0, "Process aborted because your token has expired! Please update the token and restart the process. Progress has been saved.", "Token Expired", 0)
+            print("Token expired. Stopping asset acquisition process.")
+            exit()  
         else:
             print(f"Failed to acquire asset {asset_id}. Status code: {response.status_code} - {response.text}")
             return False
