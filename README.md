@@ -6,6 +6,8 @@ Demo video: https://www.youtube.com/watch?v=umhsmPZbEME (the one shown in the vi
 
 Note: I have intentionally added a delay to the acquisition process to prevent overwhelming Quixel's API. If you plan to modify the script to send requests faster than recommended, please be aware that this may introduce risks, such as rate-limiting or API access issues. In that case proceed with caution.
 
+*PLEASE GIVE THIS A STAR ⭐ IF YOU LIKED IT! THANKS!*
+
 Step 1: Get your account token
 
 1) go to: https://quixel.com/megascans/home/
