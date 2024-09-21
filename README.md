@@ -4,7 +4,7 @@ Description: Automatically adds 10250 assets to your account
 
 Demo video: https://www.youtube.com/watch?v=umhsmPZbEME (the one shown in the video differs from this current one because it used to build the index dynamically but it was easier to build up an index once)
 
-Note: I have intentionally added a delay to the acquisition process to prevent overwhelming Quixel's API. If you plan to modify the script to send requests faster than recommended, please be aware that this may introduce risks, such as rate-limiting or API access issues. In that case proceed with caution.
+**Note: I have intentionally added a delay to the acquisition process to prevent overwhelming Quixel's API. If you plan to modify the script to send requests faster than recommended, please be aware that this may introduce risks, such as rate-limiting or API access issues. In that case proceed with caution.**
 
 *PLEASE GIVE THIS A STAR ⭐ IF YOU LIKED IT! THANKS!*
 
