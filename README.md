@@ -8,7 +8,7 @@ Demo video: https://www.youtube.com/watch?v=umhsmPZbEME (the one shown in the vi
 
 *PLEASE GIVE THIS A STAR ⭐ IF YOU LIKED IT! THANKS!*
 
-Step 1: Get your account token
+**Step 1**: Get your account token
 
 1) go to: https://quixel.com/megascans/home/
 2) right click on the page -> inspect element then navigate to the "Network" tab
@@ -22,11 +22,11 @@ Step 1: Get your account token
 
 
 
-Step 2: Install dependencies 
+**Step 2**: Install dependencies 
 
-1) run "install dependencies.bat" from the folder
+run "install dependencies.bat" from the folder
 
-Step 3: Run the script
+**Step 3**: Run the script
 
 run "quixelminer.py" and wait till all of the 10k assets from the quixel.index get added to your account!
 
