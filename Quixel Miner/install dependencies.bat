@@ -1,5 +1,8 @@
 @echo off
 
+:: Enable ANSI escape sequences for Windows 10 and later (to make text appear colored into the terminal)
+reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 1 /f
+
 :: Check if Python is installed
 python --version >nul 2>&1
 IF %ERRORLEVEL% NEQ 0 (
