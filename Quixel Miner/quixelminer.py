@@ -96,4 +96,5 @@ index = read_index(index_path)
 acquire_non_owned_assets_from_index(index, index_path)
 
 print("Process completed.")
+ctypes.windll.user32.MessageBoxW(0, "All assets have been added to your account, please consider giving me a star on GitHub!", "Success", 0)
 input("Press Enter to exit...")
