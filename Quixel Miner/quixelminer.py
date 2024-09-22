@@ -76,7 +76,7 @@ def acquire_asset_with_timeout(asset_id, index, timeout_seconds):
             print("Token expired. Stopping asset acquisition process.")
             exit()  
         else:
-            print(f"Failed to acquire asset {asset_id}. Status code: {response.status_code} - {response.text}")
+            print(f"\033[91mFailed to acquire asset {asset_id}. Status code: {response.status_code} - {response.text}\033[0m")
             return False
 
     except requests.exceptions.Timeout:
