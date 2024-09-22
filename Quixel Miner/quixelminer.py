@@ -45,7 +45,7 @@ def acquire_non_owned_assets_from_index(index, index_path, timeout_seconds=4):
                 if not success:
                     print(f"Skipping asset {asset_id} after two failed attempts. Api didn't respond in the expected time")
                 
-                time.sleep(0.5)
+                
 
             except Exception as e:
                 print(f"Failed to acquire asset {asset_id}. Error: {e}")
