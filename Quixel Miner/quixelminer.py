@@ -64,7 +64,7 @@ def acquire_asset_with_timeout(asset_id, index, timeout_seconds):
         print(f"Server response for asset {asset_id}: {response.status_code} - {response.text}")
 
         if response.status_code == 200:
-            print(f"Successfully acquired asset {asset_id}")
+            print(f"\033[92mSuccessfully acquired asset {asset_id}\033[0m")
             index[asset_id] = True  
             return True
         elif response.status_code == 400 and "USER_ALREADY_OWNS_ASSET" in response.text:
