@@ -96,3 +96,4 @@ index = read_index(index_path)
 acquire_non_owned_assets_from_index(index, index_path)
 
 print("Process completed.")
+input("Press Enter to exit...")
